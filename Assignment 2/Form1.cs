@@ -78,7 +78,7 @@ namespace Assignment_2
                         sw.WriteLine("Time /S, Altitude /m");
                         foreach (data d in table)
                         {
-                            sw.WriteLine(d.time+","+d.altitude)
+                            sw.WriteLine(d.time + "," + d.altitude);
                         }
                     }
                 }
